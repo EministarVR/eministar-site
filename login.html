@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EministarSupport - Home</title>
+    <title>EministarSupport - Anmelden</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,8 +22,21 @@
     </header>
 
     <main>
-        <h2>Willkommen bei EministarSupport!</h2>
-        <p>Hier kannst du dich anmelden oder ein neues Konto erstellen.</p>
+        <section class="login-container">
+            <h2>Log dich mit TikTok ein</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Benutzername oder E-Mail</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Passwort</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit">Anmelden</button>
+            </form>
+            <p class="note">Dies ist nur ein Test, und wir haben nichts mit TikTok zu tun.</p>
+        </section>
     </main>
 
     <footer>
